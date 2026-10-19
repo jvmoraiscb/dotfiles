@@ -23,6 +23,21 @@
     "telemetry.telemetryLevel": "off",
     "chat.disableAIFeatures": true,
 
+    "files.associations": {
+        "**/config": "ssh_config",
+        "*ssh/config": "ssh_config",
+        ".env*": "properties",
+        ".bash*": "shellscript",
+        ".zsh*": "shellscript",
+        "Dockerfile*": "dockerfile"
+    },
+
+    // esbenp.prettier-vscode
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.semi": false,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "none",
+
     // https://www.jetbrains.com/lp/mono/
     "editor.fontFamily": "JetBrains Mono",
 
@@ -31,11 +46,5 @@
 
     // miguelsolorio.symbols
     "workbench.iconTheme": "symbols",
-    "symbols.hidesExplorerArrows": false,
-    "git.openRepositoryInParentFolders": "never",
-
-    // esbenp.prettier-vscode
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.semi": false,
-    "prettier.tabWidth": 4
+    "symbols.hidesExplorerArrows": false
 }
