@@ -1,7 +1,5 @@
 {
     "window.zoomLevel": 0,
-    "window.newWindowDimensions": "fullscreen",
-    "window.restoreFullscreen": true,
     "explorer.compactFolders": false,
     "files.autoSave": "afterDelay",
     "breadcrumbs.enabled": false,
@@ -23,6 +21,7 @@
     "editor.semanticHighlighting.enabled": false,
     "extensions.ignoreRecommendations": true,
     "telemetry.telemetryLevel": "off",
+    "chat.disableAIFeatures": true,
 
     // https://www.jetbrains.com/lp/mono/
     "editor.fontFamily": "JetBrains Mono",
@@ -33,21 +32,10 @@
     // miguelsolorio.symbols
     "workbench.iconTheme": "symbols",
     "symbols.hidesExplorerArrows": false,
+    "git.openRepositoryInParentFolders": "never",
 
     // esbenp.prettier-vscode
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "prettier.semi": false,
-    "prettier.tabWidth": 4,
-
-    // ms-vscode.cpptools
-    "[c]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
-    "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
-    "C_Cpp.clang_format_fallbackStyle": "{ BaseOnStyle: Google, IdentWidth: 4, ColumnLimit: 0 }"
-
-    // ms-iot.vscode-ros
-    //"C_Cpp.default.includePath": ["${default}", "/opt/ros/humble/include/**"],
-    //"ros.distro": "humble",
-
-    // visualstudiotoolsforunity.vstuc
-    //"dotnet.defaultSolution": "disable"
+    "prettier.tabWidth": 4
 }
